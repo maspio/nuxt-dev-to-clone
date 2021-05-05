@@ -22,26 +22,19 @@ export default {
   },
   loading: false, // disable loading bar
   css: [
-    '~/assets/styles/reset.scss',
-    '~/assets/styles/base.scss',
-    '~/assets/styles/highlight.scss',
-    '~/assets/styles/app.scss'
+    '~/assets/styles/css/main.css'
   ],
-  styleResources: {
-    scss: ['~/assets/styles/tokens.scss']
-  },
   plugins: [
     '~/plugins/vue-placeholders.js',
     '~/plugins/vue-observe-visibility.client.js'
   ],
   buildModules: [
     '@nuxtjs/eslint-module',
-    '@nuxtjs/svg',
-    '@nuxtjs/style-resources'
+    '@nuxtjs/svg'
   ],
   modules: ['nuxt-ackee'],
-  ackee: {
-    server: 'https://ackee.nuxtjs.com',
-    domainId: '6336379b-8d3e-4069-9d2e-897be6a7ed4e'
-  }
+  // ackee: {
+  //   server: 'https://ackee.nuxtjs.com',
+  //   domainId: '6336379b-8d3e-4069-9d2e-897be6a7ed4e'
+  // }
 }

@@ -159,11 +159,4 @@
   </a>
 </template>
 
-<style lang="scss" scoped>
-a {
-  position: fixed;
-  bottom: 1rem;
-  border: 0;
-  right: 1rem;
-}
-</style>
+
